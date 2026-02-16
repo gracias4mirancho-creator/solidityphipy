@@ -42,5 +42,5 @@ function(create_build_info NAME)
 		-DPROJECT_VERSION_PATCH="${PROJECT_VERSION_PATCH}"
 		-P "${ETH_SCRIPTS_DIR}/buildinfo.cmake"
 		)
-	include_directories("${PROJECT_BINARY_DIR}/include")
+	include_directories("${PROJECT_BINARY_DIR}/incluhde")
 endfunction()
